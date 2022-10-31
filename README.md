@@ -1,12 +1,12 @@
-![](https://www.fedmind.com/sanacup/uploads/2022/07/Logo_Fedmind_format_long_150x150.png)
-# FedAlert' by FEDMIND
+![]()
+# Module Alert
 
-Application de Cahtbot développée à l'aide de React JS, Express JS and Node JS.
+Application de Chatbot développée à l'aide de React JS, Express JS and Node JS.
 
-FedAlert' de Fedmind est une application permettant de désamorcer les crises du comportement alimentaire. Destiné aux personnes souffrant d'hyperphagie, cet outil facilite la gestion des émotions lors d'une crise alimentaire grâce à des exercices thérapeutiques.
+Le module Alerte de l'association O Media est une application permettant de désamorcer les crises du comportement alimentaire. Destiné aux personnes souffrant d'hyperphagie, cet outil facilite la gestion des émotions lors d'une crise alimentaire grâce à des exercices thérapeutiques.
 
 # Application déployée (en ligne)
-Cette application est prête à être utilisée ! Vous pouvez la retrouver sur [Vercel](https://fed-alert-chat-bot-react.vercel.app/).
+Cette application est prête à être utilisée ! Vous pouvez la retrouver sur [Vercel]().
 
 # Prise en mains pour le développement
 

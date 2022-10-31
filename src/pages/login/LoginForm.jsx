@@ -30,13 +30,13 @@ export default function LoginForm() {
                     <div className="login-info">
                         <div className="login-info-top">
                             <picture>
-                                <img src={AvatarBot} alt="avatar de l'utilisateur Fedmind" className="login-info-avatar"/>
+                                <img src={AvatarBot} alt="avatar de l'utilisateur du module Alerte" className="login-info-avatar"/>
                             </picture>
-                            <h1>FedAlert'</h1>
-                            <p>By FEDMIND</p>
+                            <h1>Le Module Alerte</h1>
+                            <p>By O Media</p>
                         </div>
                         <div className="login-info-bottom">
-                            <p className="login-desc">FedAlert' est une application permettant de désamorcer les crises du comportement alimentaire.</p>
+                            <p className="login-desc">Le module Alerte, de O Media, pour désamorcer les crises d'hyperphagie.</p>
                             <p className="login-desc">Destiné aux personnes souffrant d'hyperphagie, cet outil facilite la gestion des émotions lors d'une crise alimentaire grâce à des exercices thérapeutiques.</p>
                         </div>
                     </div>
