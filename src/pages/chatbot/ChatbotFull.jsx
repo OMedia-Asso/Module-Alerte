@@ -25,7 +25,7 @@ export default function ChatbotFull() {
     //CONFIG CHATBOT
     const config = {
         initialMessages: [
-          createChatBotMessage("Bonjour et bienvenue sur FedAlert' !"),
+          createChatBotMessage("Bonjour et bienvenue sur le module Alerte !"),
           createChatBotMessage(
             `Alors ${name ? name : null}... pourquoi fais-tu appel à moi ?`,
             {
@@ -36,7 +36,7 @@ export default function ChatbotFull() {
           )
         ],
       
-        botName: "FedBot'",
+        botName: "OBot'",
       // customisation des avatars du bot et de l'utilisateur (voir composants)
         customComponents: {
           botAvatar: (props) => <BotAvatar {...props} />,
@@ -134,7 +134,7 @@ export default function ChatbotFull() {
               <Buttons
                 buttons = {
                   [
-                    {text : "Je veux refaire une activité FedAlert'.", handler : () => {props.actionProvider.retourExercices("Je veux revenir aux exercices", 1500)}},
+                    {text : "Je veux refaire une activité du module Alerte.", handler : () => {props.actionProvider.retourExercices("Je veux revenir aux exercices", 1500)}},
                     {text : "Je vais faire une activité de mon côté.", handler : () => {props.actionProvider.activityUser()}}
                   ]
                 }
@@ -306,7 +306,7 @@ export default function ChatbotFull() {
                 buttons = {
                   [
                     {text : "Je recommence l'activité sur l'ancrage de soi !", handler : () => {props.actionProvider.restartVideoAncrage2()}},
-                    {text : "Je réalise une autre activité présente sur FedAlert' !", handler : () => {props.actionProvider.retourExercices("Je veux faire une autre activité FedAlert'", 1500)}},
+                    {text : "Je réalise une autre activité présente sur le module Alerte !", handler : () => {props.actionProvider.retourExercices("Je veux faire une autre activité du module Alerte", 1500)}},
                     {text : "Je fais une activité de mon côté.", handler : () => {props.actionProvider.activityUserAncrage2()}}
                   ]
                 }
@@ -321,7 +321,7 @@ export default function ChatbotFull() {
                 buttons = {
                   [
                     {text : "Je veux refaire l'activité !", handler : () => {props.actionProvider.restartVideoAncrage()}},
-                    {text : "Je veux faire une autre activité FedAlert' !", handler : () => {props.actionProvider.retourExercices("Je veux faire une autre activité FedAlert'", 1500)}},
+                    {text : "Je veux faire une autre activité du module Alerte !", handler : () => {props.actionProvider.retourExercices("Je veux faire une autre activité du module Alerte.", 1500)}},
                     {text : "Je vais pratiquer une activité de mon côté.", handler : () => {props.actionProvider.activityUserAncrage()}}
                   ]
                 }
@@ -497,7 +497,7 @@ export default function ChatbotFull() {
                         <Link to="/">
                             <RiLogoutCircleLine className="logout-icon" onClick={() => {localStorage.clear("NAME")}}/>
                         </Link>
-                        <h1>FedAlert'</h1>
+                        <h1>Module Alerte</h1>
                       </div>
                       <div className="chatbot-header-right">
                         {isOpen ?

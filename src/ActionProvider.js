@@ -42,7 +42,7 @@ export default class ActionProvider {
 
   //DISCORD FINAL MESSAGE
   discordMessage(startDelay) {
-    this.templateBotMessage(<a href="https://discord.com/channels/999601480065630218/999601481319710807" alt="redirection vers le canal Dicord de FedAlert'" rel="noreferrer" target="_blank"  style={{color:'#562287'}}> 📲 Si tu souhaites en discuter, je te donne rendez-vous sur le canal Discord #FedAlert ! 💬 </a>, startDelay + 3000, false)
+    this.templateBotMessage(<a href="https://discord.com/channels/999601480065630218/999601481319710807" alt="redirection vers le canal Dicord de O Media" rel="noreferrer" target="_blank"  style={{color:'#562287'}}> 📲 Si tu souhaites en discuter, je te donne rendez-vous sur le canal Discord de O Media! 💬 </a>, startDelay + 3000, false)
   }
 
   //START
@@ -110,7 +110,7 @@ export default class ActionProvider {
 
     this.templateBotMessage("C'est quelque chose qui peut arriver !", 1500, true)
     this.templateBotMessage("Parfois, la crise est tellement forte qu'on ne peut pas s'en débarrasser comme ça 😢", 3500, false)
-    this.templateBotMessage("Tu as deux solutions : soit tu refais une activité FedAlert', soit tu trouves une occupation de ton côté !", 5500, false, "choiceNewActivity")
+    this.templateBotMessage("Tu as deux solutions : soit tu refais une activité du module Alerte, soit tu trouves une occupation de ton côté !", 5500, false, "choiceNewActivity")
   }
 
   criseRespiration() {
@@ -404,7 +404,7 @@ export default class ActionProvider {
     this.templateBotMessage("Parfois, la crise que tu vis est tellement forte que tu ne parviens pas à t'en débarrasser du premier coup ! 😢", 3500, false)
     this.templateBotMessage("Tu as différentes options qui s'offrent à toi maintenant...", 5500, false)
     this.templateBotMessage('1) Soit tu recommences l\'activité "L\'ancrage"...', 7500, false)
-    this.templateBotMessage("2) Soit tu réalises une autre activité disponible sur FedAlert'...", 9500, false)
+    this.templateBotMessage("2) Soit tu réalises une autre activité disponible sur le module Alerte...", 9500, false)
     this.templateBotMessage("3) Soit tu pratiques une activité de ton côté !", 11500, false)
     this.templateBotMessage("Que choisis-tu de faire ? 😊", 14500, true, "choiceNewActivityAncrage")
   }
@@ -414,7 +414,7 @@ export default class ActionProvider {
 
     this.templateBotMessage("😱", 1500, true)
     this.templateBotMessage("Tu as le choix : soit tu refais l'activité proposée...", 3500, false)
-    this.templateBotMessage("Soit tu en fais une autre disponible sur FedAlert'...", 5500, false)
+    this.templateBotMessage("Soit tu en fais une autre disponible sur le module Alerte...", 5500, false)
     this.templateBotMessage("Soit tu pratiques une activité de ton côté !", 7500, false, "activityAncrage")
   }
 

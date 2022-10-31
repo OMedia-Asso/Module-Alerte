@@ -1,12 +1,12 @@
-![]()
-# Module Alert
+![](
+# Module Alerte de O Media
 
 Application de Chatbot développée à l'aide de React JS, Express JS and Node JS.
 
-Le module Alerte de l'association O Media est une application permettant de désamorcer les crises du comportement alimentaire. Destiné aux personnes souffrant d'hyperphagie, cet outil facilite la gestion des émotions lors d'une crise alimentaire grâce à des exercices thérapeutiques.
+Le module Alerte de O Media est une application permettant de désamorcer les crises du comportement alimentaire. Destiné aux personnes souffrant d'hyperphagie, cet outil facilite la gestion des émotions lors d'une crise alimentaire grâce à des exercices thérapeutiques.
 
 # Application déployée (en ligne)
-Cette application est prête à être utilisée ! Vous pouvez la retrouver sur [Vercel]().
+Cette application est prête à être utilisée ! Vous pouvez la retrouver sur [Vercel](https://module-alert-deploy.vercel.app/).
 
 # Prise en mains pour le développement
 
