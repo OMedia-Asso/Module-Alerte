@@ -1,0 +1,22 @@
+.bot-video {
+    width: 256px !important;
+    height: 144px !important;
+    margin-left: 48px !important;
+    margin-bottom: var(--spacing-medium);
+}
+
+@media screen and (min-width: 768px) {
+    .bot-video {
+        margin-left: 48px !important;
+        width: 320px !important;
+        height: 180px !important;
+        margin-bottom: var(--spacing-large);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .bot-video {
+        width: 384px !important;
+        height: 216px !important;
+    }
+}

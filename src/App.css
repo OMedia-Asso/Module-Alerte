@@ -1,0 +1,38 @@
+/* Page de style de l'application. */
+
+/* Import des polices Poppins, Nunito Sans et Open Sans depuis Google Fonts.*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+:root {
+/* Style des polices. */
+  --main-font: 'Open Sans', sans-serif;
+  --secondary-font: 'Nunito', sans-serif;
+/* Couleur des textes. */
+  --color-rose: #931A85;
+  --color-violet: #562287;
+  --color-jaune: #FBD34E;
+  --color-noir: #463C4E;
+  --color-blanc: #fff;
+  -color-gris: #ededed;
+/* Espacement des lettres */
+  --spacing: 8px;
+  --spacing-medium: calc(var(--spacing) * 2);
+  --spacing-large: calc(var(--spacing) * 4);
+}
+
+/* Ne pas toucher. Paramêtres d'affichage par défaut des marges et des bordures.*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ne pas toucher. Paramêtres d'affichage par défaut de la hauteur et la largeur des pages.*/
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  line-height: 1.5;
+}

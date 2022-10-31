@@ -1,0 +1,49 @@
+.buttons-container {
+    margin-left: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 56%;
+}
+
+.option-button {
+    background: none;
+    border: 1px solid var(--color-rose);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-right: var(--spacing);
+    margin-bottom: var(--spacing-medium);
+    cursor: pointer;
+    color: var(--color-rose);
+    outline: none;
+    transition: .2s all;
+    font-size: .8rem;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+}
+
+.option-button:focus, .option-button:hover {
+    background-color: var(--color-rose);
+    color: var(--color-blanc);
+}
+
+@media screen and (min-width: 768px) {
+    .buttons-container {
+        flex-direction: row;
+        width: 64%;
+    }
+    .option-button {
+        font-size: .9rem;
+        padding: 10px 14px;
+        margin-bottom: var(--spacing-medium);
+        margin-right: var(--spacing-medium);
+        width: fit-content;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .option-button {
+        margin-right: 24px;
+        padding: 10px 16px;
+    }
+}

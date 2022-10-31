@@ -1,0 +1,19 @@
+.bot-image {
+    width: 50%;
+    height: auto;
+    margin-left: 48px;
+}
+
+@media screen and (min-width: 768px) {
+    .bot-image {
+        width: 28%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bot-image {
+        width: 16%;
+        height: auto;
+    }
+}

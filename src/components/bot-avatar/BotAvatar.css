@@ -1,0 +1,29 @@
+.bot-avatar {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -28px;
+    margin-left: -6px;
+}
+
+.bot-avatar img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    animation: levitate 2.2s;
+}
+
+@keyframes levitate {
+    25% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+    75% {
+        transform: translateY(0px);
+    }
+}
