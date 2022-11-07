@@ -10,12 +10,11 @@
   --main-font: 'Open Sans', sans-serif;
   --secondary-font: 'Nunito', sans-serif;
 /* Couleur des textes. */
-  --color-rose: #931A85;
-  --color-violet: #562287;
-  --color-jaune: #FBD34E;
-  --color-noir: #463C4E;
+  --color-bleu: #4CADCD;
+  --color-vert: #80CAD0 ;
+  --color-noir: #292929;
   --color-blanc: #fff;
-  -color-gris: #ededed;
+  -color-gris: #808080;
 /* Espacement des lettres */
   --spacing: 8px;
   --spacing-medium: calc(var(--spacing) * 2);

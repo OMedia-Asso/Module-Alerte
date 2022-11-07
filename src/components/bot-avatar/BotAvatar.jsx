@@ -1,5 +1,5 @@
 import './BotAvatar.css';
-import RobotAvatar from '../../assets/avatar-bot.png'
+import RobotAvatar from '../../assets/Obot.png'
 
 /* Composant de l'avatar de O Media dans le chat (code différent que l'avatar d'accueil.) */ 
 

@@ -8,13 +8,13 @@
 
 .option-button {
     background: none;
-    border: 1px solid var(--color-rose);
+    border: 1px solid var(--color-bleu);
     border-radius: 8px;
     padding: 8px 12px;
     margin-right: var(--spacing);
     margin-bottom: var(--spacing-medium);
     cursor: pointer;
-    color: var(--color-rose);
+    color: var(--color-bleu);
     outline: none;
     transition: .2s all;
     font-size: .8rem;
@@ -23,7 +23,7 @@
 }
 
 .option-button:focus, .option-button:hover {
-    background-color: var(--color-rose);
+    background-color: var(--color-bleu);
     color: var(--color-blanc);
 }
 

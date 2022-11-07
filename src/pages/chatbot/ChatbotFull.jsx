@@ -45,10 +45,10 @@ export default function ChatbotFull() {
       // customisation de certains styles des boutons et du fond des bulles de chat
         customStyles: {
           botMessageBox: {
-            backgroundColor: "#f2eafa"
+            backgroundColor: "#4CADCD"
           },
           chatButton: {
-            backgroundColor: "#931A85"
+            backgroundColor: "#808080"
           }
         },
 

@@ -2,7 +2,7 @@
 
 import './LoginForm.css';
 import { useHistory } from 'react-router-dom';
-import AvatarBot from '../../assets/avatar-bot.png';
+import AvatarBot from '../../assets/Obot.png';
 import { Fragment, useState } from 'react';
 
 export default function LoginForm() {
