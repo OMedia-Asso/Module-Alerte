@@ -82,7 +82,7 @@
 
 /* Bulles des messages bot*/
 .react-chatbot-kit-chat-bot-message {
-    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
     margin-left: 0 !important;
     color: var(--color-noir) !important;
     font-family: var(--secondary-font);
@@ -105,9 +105,9 @@
 
 /* Bulle des messages utilisateur */
 .react-chatbot-kit-user-chat-message {
-    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.5);
     margin-right: 12px !important;
-    background-color: var(--color-bleu) !important;
+    background-color: var(--color-vert) !important;
     color: var(--color-blanc) !important;
     font-family: var(--secondary-font) !important;
     font-weight: 600 !important;
@@ -116,7 +116,7 @@
 
 /* Flèche des messages utilisateur */
 .react-chatbot-kit-user-chat-message-arrow {
-    border-left: 8px solid var(--color-bleu) !important;
+    border-left: 8px solid var(--color-vert) !important;
 }
 
 .react-chatbot-kit-chat-input {
@@ -129,6 +129,11 @@
 
 .react-chatbot-kit-chat-input-container {
     display: none !important;
+}
+
+.react-chatbot-kit-chat-bot-message {
+    color: var(--color-blanc) !important;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.5);
 }
 
 /* Media queries */

@@ -9,4 +9,5 @@
     color: var(--color-blanc);
     font-family: var(--secondary-font);
     background-color: var(--color-vert);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
 }
